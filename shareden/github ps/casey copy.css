@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+p{
+    font-size: 16px;
+}
+/* body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+} */
+
+/* Header styles */
+header {
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    padding: 35px 100px; 
+} 
+
+
+.logo h1 {
+    font-size: 24px;
+    color: #333;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+}
+
+.search input[type="text"] {
+    width: 410px;
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    margin-right: 10px;
+}
+
+.search button {
+    width: 100px;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+}
+
+.search button:hover {
+    background-color: #0056b3;
+}
+
+.navigation ul {
+    list-style-type: none;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.navigation ul li {
+    text-decoration: none;
+    margin-right: 30px; 
+
+}
+
+.navigation ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.navigation ul li a:hover {
+    color: #007bff;
+}
+
+.navigation ul li:last-child {
+    margin-right: 0;
+}
+
+section{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.page1{
+    height: 86.7vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.page1 .info{
+    width: 50%
+}
+.page1 .info p{
+    width: 90%
+}
+
+.page1 img{
+    width: 50%;
+}
+
+.explore{
+    margin: 0;
+    height: 50vh;
+    background-color: #F6F7F9;
+}
+
+.explore .info{
+    padding-top: 60px;
+    margin-left: 100px;
+    margin-right: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.explore .info .choose{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+
+.explore .info .choose1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;    
+}
+
+.explore .info .choose1 p{
+    text-align: center;
+    width: 50%;    
+}
+
+.category{
+    height: 40vh;
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.category h1{
+    margin-bottom: 20px;
+}
+
+.category p{
+    text-align: center;
+    margin-bottom: 50px;
+    width: 60%;
+}
+
+.category .categories{
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+}
+
+.recommended{
+    height: 70vh;
+}
+
+.recommended p{
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+/* HORIZONTAL LINES */
+.horizontal-line {
+    border-bottom: 1px solid black; /* Adjust color, width, and style as needed */
+    margin-bottom: 40px; /* Add margin for spacing */
+}
+
+
+/* DOM CREATED EVENTS */
+
+#events-library {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 30px;
+}
+
+.event-container {
+    border: 0.5px solid #e8e8e8;
+    border-radius: 15px;
+}
+
+.event-container img {
+    width: 100%;
+    height: 180px;
+    border-radius: 5px;
+}
+
+.event-container h3 {
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.event-container p {
+    padding: 0 10px;
+    font-size: 0.9em;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+.event-container .location{
+    margin-bottom: 30px;
+}
+
+.event-container:hover{
+    border: #ccc;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Example shadow effect */
+}
+
+.footer{
+    margin: 0;
+    background-color: #F6F7F9;
+    height: 35vh;
+}
+
+.footer .info{
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-top: 50px;
+}
