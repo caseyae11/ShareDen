@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
+* {
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0px;
+}
+
+header {
+
+    width: 98.7%;
+    height: 100%;
+    position: relative;
+    background-color: #DFE4F5;
+    padding:15px;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center; 
+    left:0;
+    top:0;
+  
+}
+
+header img {
+    width: 60%;
+    padding: 5%;
+    padding-left: 100px;
+}
+
+.navigation{
+    padding-right: 50px;
+
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row; 
+    color: #486284;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    justify-content: space-between;
+    align-items: center;  
+    padding-right: 50px;
+}
+
+ul li {
+    margin-right: 1.5rem;
+
+}
+
+button {
+    width: 134px;
+    height: 38px;
+    background: #F2994A;
+    border-radius: 22px;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    margin-right: 1.5rem;
+    cursor: pointer;
+
+}
+
+button li{
+    margin-right: 1.5rem;
+    cursor: pointer;
+}
+
+input[type="search"] {
+    width: 410px;
+    height: 45px;
+    background: #EFF3FD;
+    border-radius: 30px;
+    box-sizing: border-box; 
+    padding: 20px; 
+    font-size: 16px; 
+    border: none; 
+    outline: none; 
+}
+
+input[type="search"]:focus {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+
+/* login andsignup section */
+.loginTitle {
+    font-size: 24px;
+    padding-top: 10px;
+    padding-left: 134px;
+    color: #486284;
+}
+
+.signupTitle {
+    font-size: 24px;
+    padding-top: 10px;
+    padding-left: 134px;
+    color: #486284;
+}
+
+.login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 18px;
+    color: #486284;
+    padding-bottom: 100px;
+}
+
+.signup {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 18px;
+    color: #486284;
+    padding-bottom: 100px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+label {
+    font-size: 16px;
+    font-weight: 700;
+    text-align: left;
+}
+
+input {
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 120%; /* Set to 100% to match the container */
+    background-color: #DFE4F5;
+    border-radius: 18px;
+    border: none; /* Remove the border */
+    outline: none; /* Remove the outline around the input boxes */
+}
+
+/* FOOTER SHIT */
+.footer {
+    width: 85%;
+    height: 100%;
+    position: relative;
+    background-color: #6373B0;
+    padding: 5%;
+    padding-left: 134px;
+    left: 0;
+    top: 0;
+    text-align: left;
+}
+
+.footer img {
+    width: 20%; 
+}
+
+.footer p {
+    color: #1A202C;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.footer .social img {
+    width: 33.60px;
+    height: 33.60px;
+    border-radius: 50%;
+}
+

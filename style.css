@@ -1,0 +1,465 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
+* {
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0px;
+}
+
+header {
+
+    width: 98.7%;
+    height: 100%;
+    position: relative;
+    background-color: #DFE4F5;
+    padding:15px;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center; 
+    left:0;
+    top:0;
+  
+}
+
+header img {
+    width: 60%;
+    padding: 5%;
+    padding-left: 100px;
+}
+
+.navigation{
+    padding-right: 50px;
+
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row; 
+    color: #486284;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    justify-content: space-between;
+    align-items: center;  
+    padding-right: 50px;
+}
+
+ul li {
+    margin-right: 1.5rem;
+
+}
+
+button {
+    width: 134px;
+    height: 38px;
+    background: #F2994A;
+    border-radius: 22px;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    margin-right: 1.5rem;
+    cursor: pointer;
+
+}
+
+button li{
+    margin-right: 1.5rem;
+    cursor: pointer;
+}
+
+input[type="search"] {
+    width: 410px;
+    height: 45px;
+    background: #EFF3FD;
+    border-radius: 30px;
+    box-sizing: border-box; 
+    padding: 20px; 
+    font-size: 16px; 
+    border: none; 
+    outline: none; 
+}
+
+input[type="search"]:focus {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.home {
+    background-color: grey;
+    overflow: hidden; 
+}
+
+.homeInfo {
+    float: left;
+    width: 50%;
+    padding: 60px; 
+    box-sizing: border-box; 
+}
+
+.home .info h1 {
+    color: #1A202C;
+    font-size: 46px;
+    font-weight: 800;
+    text-transform: uppercase;
+    line-height: 55.75px;
+
+}
+
+.home .info p {
+    color: #1A202C;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 25.60px;
+    opacity: 0.45;
+    word-wrap: break-word
+}
+
+.pic {
+    float: right;
+    width: 50%;
+    box-sizing: border-box;    
+}
+
+.pic img {
+    width: 100%; 
+    height: 100%; 
+    background-color: #D9D9D9; 
+    border-top-left-radius: 63px
+}
+
+.explore {
+    background-color: #F6F7F9;
+    overflow: hidden;
+}
+
+.explore h1 {
+    text-align: center;
+    color: #486284;
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 72px;
+    word-wrap: break-word
+}
+
+.explore p {
+    color: #1A202C;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    word-wrap: break-word;
+    text-align: center;
+}
+
+.info1 {
+    float: left;
+    width: 50%;
+    padding: 100px; 
+    box-sizing: border-box; 
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.info1 img {
+    width: 30%;
+    height: 30%;
+    background: #486284;
+    border-radius: 30px;
+}
+
+.info2 {
+    float: right;
+    width: 50%;
+    padding: 100px; 
+    box-sizing: border-box; 
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.info2 img {
+    width: 30%;
+    height: 30%;
+    background: #486284;
+    border-radius: 30px;
+}
+
+.info1 h3 {
+    color: #1A202C;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    word-wrap: break-word;
+}
+
+.info2 h3 {
+    color: #1A202C;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    word-wrap: break-word;
+}
+
+.info1 p {
+    color: #1A202C;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24.50px;
+    word-wrap: break-word;
+
+}
+
+.info2 p {
+    color: #1A202C;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24.50px;
+    word-wrap: break-word;
+
+}
+
+.category {
+    align-items: center;;
+    text-align: center;
+}
+
+.categoryText h1 {
+    color: #486284;
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 72px;
+    word-wrap: break-word
+}
+
+.categoryText p {
+    color: #1A202C;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    word-wrap: break-word
+}
+
+.categories {
+    display: flex;
+    flex-direction: row;
+}
+
+.categories .category-item {
+    display: inline-block;
+    text-align: center;
+    margin: 0 35px 70px; 
+}
+
+.categories .category-item img {
+    width: 106px;
+    height: 106px; 
+    display: block; 
+    margin: 0 35px; 
+    display: inline-block;
+    border-radius: 30px
+}
+
+.categories .category-item p {
+    margin: 0;
+    color: #1A202C;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    word-wrap: break-word;
+}
+
+.title {
+    color: #1A202C;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 33px;
+    word-wrap: break-word;
+    margin-left: 1.2rem
+}
+
+.divider1 {
+    width: 20%;
+    height: 4px;
+    background: #1A202C;
+    position: relative;
+    margin-left: 1.2rem;
+    margin-right: 1.2rem
+}
+
+.divider2{
+    width: 100%; 
+    height: 1px;
+    background: #90A3BF;
+    position: relative;
+    margin-left: 1.2rem;
+    margin-right: 1.2rem
+}
+/*CSS FOR EVENT CARD-------------------------------------------*/
+.eventP {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5%; 
+    padding: 1.2rem;
+    margin-bottom: 1.5rem;
+
+}
+
+.event{
+    width: 30%;
+    height: auto;
+    background: #EFF3FD; 
+    border-radius: 34px;
+    text-decoration: none;
+}
+
+.event img {
+    width: 100%;
+    height: auto;
+    border-top-left-radius: 35px;
+    border-top-right-radius: 35px;
+    object-fit: cover; 
+}
+
+.eventText {
+    align-items: center; 
+    padding-left:1rem;
+}
+
+.eventTitle {
+    color: #1A202C;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.timeDetails {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.eventDate, .eventTime {
+    color: black;
+    font-size: 16px;
+    font-weight: 600;
+    word-wrap: break-word
+}
+
+.dateValue, .timeValue {
+    color: black;
+    font-size: 16px;
+    font-weight: 300;
+    word-wrap: break-word;
+    margin-right: 1rem;
+}
+
+/*CSS FOR EVENT CARD LRG-------------------------------------------*/
+.eventLrg {
+    width:90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    background-color: #DFE4F5; /* Replace with your desired background color */
+    padding: 15px; /* Adjust padding as needed */
+    border-radius: 20px;
+    text-decoration: none;
+    align-items: center;
+
+}
+
+.eventLrg img {
+    max-width: 25%; /* Adjust the width of the image as needed */
+
+    border-radius: 25px; /* Rounded corners for the image */
+    align-items: flex-end;
+}
+
+.eventLrgText {
+    flex-grow: 1;
+    padding-left: 15px; /* Adjust padding as needed */
+    
+}
+
+.eventLrgTitle{
+    margin-bottom: 10px;
+    font-size: larger;
+}
+
+.eventLrgLoc, .eventLrgDate, .eventLrgTime, .eventLrgCont {
+    margin-bottom: 10px; /* Adjust margin as needed */
+}
+
+/* FOOTER SHIT */
+.footer {
+    width: 85%;
+    height: 100%;
+    position: relative;
+    background-color: #6373B0;
+    padding: 5%;
+    padding-left: 134px;
+    left: 0;
+    top: 0;
+    text-align: left;
+}
+
+.footer img {
+    width: 20%; 
+}
+
+.footer p {
+    color: #1A202C;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.footer .social img {
+    width: 33.60px;
+    height: 33.60px;
+    border-radius: 50%;
+}
+
+
+/* login section */
+.loginTitle {
+    font-size: 24px;
+    padding-top: 10px;
+    padding-left: 134px;
+    color: #486284;
+}
+
+
+.login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 18px;
+    color: #486284;
+    padding-bottom: 100px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+label {
+    font-size: 16px;
+    font-weight: 700;
+    text-align: left;
+}
+
+input {
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 120%; /* Set to 100% to match the container */
+    background-color: #DFE4F5;
+    border-radius: 18px;
+    border: none; /* Remove the border */
+    outline: none; /* Remove the outline around the input boxes */
+}
